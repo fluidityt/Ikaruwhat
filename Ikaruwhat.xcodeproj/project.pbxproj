@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3B2A7B1EC4566F00E12909 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B2A7A1EC4566F00E12909 /* AppDelegate.swift */; };
+		4D3B2A7D1EC4566F00E12909 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4D3B2A7C1EC4566F00E12909 /* GameScene.sks */; };
+		4D3B2A7F1EC4566F00E12909 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4D3B2A7E1EC4566F00E12909 /* Actions.sks */; };
+		4D3B2A811EC4566F00E12909 /* GS Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B2A801EC4566F00E12909 /* GS Init.swift */; };
+		4D3B2A831EC4566F00E12909 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B2A821EC4566F00E12909 /* GameViewController.swift */; };
+		4D3B2A861EC4566F00E12909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3B2A841EC4566F00E12909 /* Main.storyboard */; };
+		4D3B2A881EC4566F00E12909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3B2A871EC4566F00E12909 /* Assets.xcassets */; };
+		4D3B2A8B1EC4566F00E12909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3B2A891EC4566F00E12909 /* LaunchScreen.storyboard */; };
+		4D3B2A961EC4567000E12909 /* IkaruwhatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B2A951EC4567000E12909 /* IkaruwhatTests.swift */; };
+		4D3B2AA21EC4575700E12909 /* Spawner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B2AA11EC4575700E12909 /* Spawner.swift */; };
+		4D3B2AA41EC4576000E12909 /* DoContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B2AA31EC4576000E12909 /* DoContact.swift */; };
+		4D3B2AA61EC4576B00E12909 /* GS Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B2AA51EC4576B00E12909 /* GS Loop.swift */; };
+		4D3B2AA81EC4580700E12909 /* sprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B2AA71EC4580700E12909 /* sprites.swift */; };
+		4D3B2AAA1EC4A0AC00E12909 /* controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B2AA91EC4A0AC00E12909 /* controls.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D3B2A921EC4566F00E12909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D3B2A6F1EC4566E00E12909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3B2A761EC4566F00E12909;
+			remoteInfo = Ikaruwhat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D3B2A771EC4566F00E12909 /* Ikaruwhat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ikaruwhat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3B2A7A1EC4566F00E12909 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D3B2A7C1EC4566F00E12909 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4D3B2A7E1EC4566F00E12909 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		4D3B2A801EC4566F00E12909 /* GS Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GS Init.swift"; sourceTree = "<group>"; };
+		4D3B2A821EC4566F00E12909 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4D3B2A851EC4566F00E12909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D3B2A871EC4566F00E12909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D3B2A8A1EC4566F00E12909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D3B2A8C1EC4566F00E12909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3B2A911EC4566F00E12909 /* IkaruwhatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IkaruwhatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3B2A951EC4567000E12909 /* IkaruwhatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkaruwhatTests.swift; sourceTree = "<group>"; };
+		4D3B2A971EC4567000E12909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3B2AA11EC4575700E12909 /* Spawner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spawner.swift; sourceTree = "<group>"; };
+		4D3B2AA31EC4576000E12909 /* DoContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoContact.swift; sourceTree = "<group>"; };
+		4D3B2AA51EC4576B00E12909 /* GS Loop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GS Loop.swift"; sourceTree = "<group>"; };
+		4D3B2AA71EC4580700E12909 /* sprites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sprites.swift; sourceTree = "<group>"; };
+		4D3B2AA91EC4A0AC00E12909 /* controls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controls.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D3B2A741EC4566F00E12909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3B2A8E1EC4566F00E12909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D3B2A6E1EC4566E00E12909 = {
+			isa = PBXGroup;
+			children = (
+				4D3B2A791EC4566F00E12909 /* Ikaruwhat */,
+				4D3B2A941EC4566F00E12909 /* IkaruwhatTests */,
+				4D3B2A781EC4566F00E12909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D3B2A781EC4566F00E12909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D3B2A771EC4566F00E12909 /* Ikaruwhat.app */,
+				4D3B2A911EC4566F00E12909 /* IkaruwhatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D3B2A791EC4566F00E12909 /* Ikaruwhat */ = {
+			isa = PBXGroup;
+			children = (
+				4D3B2AA01EC456A000E12909 /* junk */,
+				4D3B2A801EC4566F00E12909 /* GS Init.swift */,
+				4D3B2AA11EC4575700E12909 /* Spawner.swift */,
+				4D3B2AA51EC4576B00E12909 /* GS Loop.swift */,
+				4D3B2AA31EC4576000E12909 /* DoContact.swift */,
+				4D3B2AA71EC4580700E12909 /* sprites.swift */,
+				4D3B2AA91EC4A0AC00E12909 /* controls.swift */,
+				4D3B2A821EC4566F00E12909 /* GameViewController.swift */,
+			);
+			path = Ikaruwhat;
+			sourceTree = "<group>";
+		};
+		4D3B2A941EC4566F00E12909 /* IkaruwhatTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D3B2A951EC4567000E12909 /* IkaruwhatTests.swift */,
+				4D3B2A971EC4567000E12909 /* Info.plist */,
+			);
+			path = IkaruwhatTests;
+			sourceTree = "<group>";
+		};
+		4D3B2AA01EC456A000E12909 /* junk */ = {
+			isa = PBXGroup;
+			children = (
+				4D3B2A7E1EC4566F00E12909 /* Actions.sks */,
+				4D3B2A7A1EC4566F00E12909 /* AppDelegate.swift */,
+				4D3B2A7C1EC4566F00E12909 /* GameScene.sks */,
+				4D3B2A841EC4566F00E12909 /* Main.storyboard */,
+				4D3B2A871EC4566F00E12909 /* Assets.xcassets */,
+				4D3B2A891EC4566F00E12909 /* LaunchScreen.storyboard */,
+				4D3B2A8C1EC4566F00E12909 /* Info.plist */,
+			);
+			name = junk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D3B2A761EC4566F00E12909 /* Ikaruwhat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3B2A9A1EC4567000E12909 /* Build configuration list for PBXNativeTarget "Ikaruwhat" */;
+			buildPhases = (
+				4D3B2A731EC4566F00E12909 /* Sources */,
+				4D3B2A741EC4566F00E12909 /* Frameworks */,
+				4D3B2A751EC4566F00E12909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ikaruwhat;
+			productName = Ikaruwhat;
+			productReference = 4D3B2A771EC4566F00E12909 /* Ikaruwhat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D3B2A901EC4566F00E12909 /* IkaruwhatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3B2A9D1EC4567000E12909 /* Build configuration list for PBXNativeTarget "IkaruwhatTests" */;
+			buildPhases = (
+				4D3B2A8D1EC4566F00E12909 /* Sources */,
+				4D3B2A8E1EC4566F00E12909 /* Frameworks */,
+				4D3B2A8F1EC4566F00E12909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D3B2A931EC4566F00E12909 /* PBXTargetDependency */,
+			);
+			name = IkaruwhatTests;
+			productName = IkaruwhatTests;
+			productReference = 4D3B2A911EC4566F00E12909 /* IkaruwhatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D3B2A6F1EC4566E00E12909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "justin fluidity";
+				TargetAttributes = {
+					4D3B2A761EC4566F00E12909 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 57ES2MLM4Y;
+						ProvisioningStyle = Automatic;
+					};
+					4D3B2A901EC4566F00E12909 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D3B2A761EC4566F00E12909;
+					};
+				};
+			};
+			buildConfigurationList = 4D3B2A721EC4566E00E12909 /* Build configuration list for PBXProject "Ikaruwhat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D3B2A6E1EC4566E00E12909;
+			productRefGroup = 4D3B2A781EC4566F00E12909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D3B2A761EC4566F00E12909 /* Ikaruwhat */,
+				4D3B2A901EC4566F00E12909 /* IkaruwhatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D3B2A751EC4566F00E12909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3B2A861EC4566F00E12909 /* Main.storyboard in Resources */,
+				4D3B2A7D1EC4566F00E12909 /* GameScene.sks in Resources */,
+				4D3B2A881EC4566F00E12909 /* Assets.xcassets in Resources */,
+				4D3B2A8B1EC4566F00E12909 /* LaunchScreen.storyboard in Resources */,
+				4D3B2A7F1EC4566F00E12909 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3B2A8F1EC4566F00E12909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D3B2A731EC4566F00E12909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3B2AA21EC4575700E12909 /* Spawner.swift in Sources */,
+				4D3B2AA81EC4580700E12909 /* sprites.swift in Sources */,
+				4D3B2AA41EC4576000E12909 /* DoContact.swift in Sources */,
+				4D3B2AA61EC4576B00E12909 /* GS Loop.swift in Sources */,
+				4D3B2A811EC4566F00E12909 /* GS Init.swift in Sources */,
+				4D3B2AAA1EC4A0AC00E12909 /* controls.swift in Sources */,
+				4D3B2A831EC4566F00E12909 /* GameViewController.swift in Sources */,
+				4D3B2A7B1EC4566F00E12909 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3B2A8D1EC4566F00E12909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3B2A961EC4567000E12909 /* IkaruwhatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D3B2A931EC4566F00E12909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D3B2A761EC4566F00E12909 /* Ikaruwhat */;
+			targetProxy = 4D3B2A921EC4566F00E12909 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D3B2A841EC4566F00E12909 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D3B2A851EC4566F00E12909 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D3B2A891EC4566F00E12909 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D3B2A8A1EC4566F00E12909 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D3B2A981EC4567000E12909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D3B2A991EC4567000E12909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D3B2A9B1EC4567000E12909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57ES2MLM4Y;
+				INFOPLIST_FILE = Ikaruwhat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zigg.Ikaruwhat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4D3B2A9C1EC4567000E12909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57ES2MLM4Y;
+				INFOPLIST_FILE = Ikaruwhat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zigg.Ikaruwhat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4D3B2A9E1EC4567000E12909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IkaruwhatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zigg.IkaruwhatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ikaruwhat.app/Ikaruwhat";
+			};
+			name = Debug;
+		};
+		4D3B2A9F1EC4567000E12909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IkaruwhatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zigg.IkaruwhatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ikaruwhat.app/Ikaruwhat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D3B2A721EC4566E00E12909 /* Build configuration list for PBXProject "Ikaruwhat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3B2A981EC4567000E12909 /* Debug */,
+				4D3B2A991EC4567000E12909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3B2A9A1EC4567000E12909 /* Build configuration list for PBXNativeTarget "Ikaruwhat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3B2A9B1EC4567000E12909 /* Debug */,
+				4D3B2A9C1EC4567000E12909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D3B2A9D1EC4567000E12909 /* Build configuration list for PBXNativeTarget "IkaruwhatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3B2A9E1EC4567000E12909 /* Debug */,
+				4D3B2A9F1EC4567000E12909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D3B2A6F1EC4566E00E12909 /* Project object */;
+}
